@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Havana Music Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background-notes">
+    <span>♪</span>
+    <span>♫</span>
+    <span>♬</span>
+</div>
+
+<main class="page">
+
+    <section class="hero">
+
+        <div class="text">
+            <h1>🎵 Havana</h1>
+            <h2>Camila Cabello</h2>
+
+            <p>Developer M.A</p>
+
+            <button onclick="startAnimation()">Start Animation</button>
+        </div>
+
+        <div class="video-card">
+
+            <div class="record" id="record">
+                <div class="center"></div>
+            </div>
+
+            <div class="video-wrapper">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/HCjNJDNzw8Y?rel=0"
+                    title="Havana by Camila Cabello"
+                    frameborder="0"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <p class="backup">
+                If the video is blocked in your browser,
+                <a href="https://www.youtube.com/watch?v=HCjNJDNzw8Y" target="_blank">
+                    open it directly on YouTube
+                </a>
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="animation-box">
+
+        <h3>JavaScript Animation</h3>
+
+        <div class="track">
+            <div id="note">🎶</div>
+        </div>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
